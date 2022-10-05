@@ -19,7 +19,7 @@ const app = Vue.createApp({
             this.lastName = results[0].name.first
             this.email = results[0].email
             this.gender = results[0].gender
-            this.picture = results[0].picture
+            this.picture = results[0].picture.large
         },
     },
 
